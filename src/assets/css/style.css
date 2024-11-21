@@ -25,6 +25,7 @@ header .line {
 .button:hover {
   color: white;
   background-color: #454545;
+  font-weight: bold;
 }
 
 /* container preset */
@@ -277,6 +278,10 @@ footer {
 .linkar a {
   text-decoration: none;
   color: inherit;
+}
+
+.linkar a:hover {
+  font-weight: bold;
 }
 
 @media (min-width: 769px) and (max-width: 1140px) {
